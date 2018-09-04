@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.megamek</groupId>
+  <artifactId>mekhq</artifactId>
+  <versioning>
+    <versions>
+      <version>0.45.2-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20180904151718</lastUpdated>
+  </versioning>
+</metadata>
