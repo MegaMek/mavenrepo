@@ -4,8 +4,8 @@
   <artifactId>megameklab-gradle</artifactId>
   <versioning>
     <versions>
-      <version>0.45.1-SNAPSHOT</version>
+      <version>0.45.2-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20180817145359</lastUpdated>
+    <lastUpdated>20180904041137</lastUpdated>
   </versioning>
 </metadata>
