@@ -4,8 +4,8 @@
   <artifactId>mekhq-gradle</artifactId>
   <versioning>
     <versions>
-      <version>0.45.1-SNAPSHOT</version>
+      <version>0.45.2-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20180817145433</lastUpdated>
+    <lastUpdated>20180904045446</lastUpdated>
   </versioning>
 </metadata>
