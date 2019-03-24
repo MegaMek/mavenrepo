@@ -3,9 +3,10 @@
   <groupId>org.megamek</groupId>
   <artifactId>megameklab</artifactId>
   <versioning>
+    <release>0.45.4</release>
     <versions>
-      <version>0.45.4-SNAPSHOT</version>
+      <version>0.45.4</version>
     </versions>
-    <lastUpdated>20190212054240</lastUpdated>
+    <lastUpdated>20190324195919</lastUpdated>
   </versioning>
 </metadata>
