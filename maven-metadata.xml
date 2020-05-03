@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata>
   <groupId>org.megamek</groupId>
-  <artifactId>mekhq</artifactId>
+  <artifactId>megameklab</artifactId>
   <versioning>
-    <latest>0.47.6</latest>
-    <release>0.47.6</release>
+    <latest>0.47.7-SNAPSHOT</latest>
     <versions>
-      <version>0.47.6</version>
+      <version>0.47.7-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20200503182355</lastUpdated>
+    <lastUpdated>20200503183727</lastUpdated>
   </versioning>
 </metadata>
