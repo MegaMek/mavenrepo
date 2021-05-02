@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>org.megamek</groupId>
+  <artifactId>megameklab</artifactId>
+  <version>0.49.1-SNAPSHOT</version>
+  <versioning>
+    <snapshot>
+      <timestamp>20210502.001810</timestamp>
+      <buildNumber>1</buildNumber>
+    </snapshot>
+    <lastUpdated>20210502001810</lastUpdated>
+    <snapshotVersions>
+      <snapshotVersion>
+        <classifier>sources</classifier>
+        <extension>jar</extension>
+        <value>0.49.1-20210502.001810-1</value>
+        <updated>20210502001810</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>jar</extension>
+        <value>0.49.1-20210502.001810-1</value>
+        <updated>20210502001810</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>0.49.1-20210502.001810-1</value>
+        <updated>20210502001810</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+</metadata>
