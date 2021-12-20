@@ -1,0 +1,192 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.megamek",
+    "module": "megameklab",
+    "version": "0.49.6-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7",
+      "buildId": "gnoparqk6val5hfio2feudrviy"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "megameklab-0.49.6-SNAPSHOT.jar",
+          "url": "megameklab-0.49.6-SNAPSHOT.jar",
+          "size": 1088643,
+          "sha512": "7c31e5fec95fa0a7cefd139645bc36a2cf1bc38999c53660ded573f3c6d4d4ccabfbbd83bbb2840bf1d40015c7af39d88895022e75382e6a7c7c824e9ea6b9ab",
+          "sha256": "b0caf56a208752138c9cdfddc7c95c2048485f53ff723f16a22458732b36be85",
+          "sha1": "baabddb09dcdc70f4d2e878bf42cee96aa623b67",
+          "md5": "65c15e58a6be58031ac7c20be490f2a7"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.megamek",
+          "module": "megamek",
+          "version": {
+            "requires": "0.49.6-SNAPSHOT"
+          },
+          "excludes": [
+            {
+              "group": "xml-apis",
+              "module": "xml-apis"
+            }
+          ]
+        },
+        {
+          "group": "org.apache.logging.log4j",
+          "module": "log4j-core",
+          "version": {
+            "requires": "2.17.0"
+          },
+          "excludes": [
+            {
+              "group": "xml-apis",
+              "module": "xml-apis"
+            }
+          ]
+        },
+        {
+          "group": "org.apache.xmlgraphics",
+          "module": "batik-dom",
+          "version": {
+            "requires": "1.14"
+          },
+          "excludes": [
+            {
+              "group": "xml-apis",
+              "module": "xml-apis"
+            }
+          ]
+        },
+        {
+          "group": "org.apache.xmlgraphics",
+          "module": "batik-codec",
+          "version": {
+            "requires": "1.14"
+          },
+          "excludes": [
+            {
+              "group": "xml-apis",
+              "module": "xml-apis"
+            }
+          ]
+        },
+        {
+          "group": "org.apache.xmlgraphics",
+          "module": "batik-rasterizer",
+          "version": {
+            "requires": "1.14"
+          },
+          "excludes": [
+            {
+              "group": "xml-apis",
+              "module": "xml-apis"
+            }
+          ]
+        },
+        {
+          "group": "org.apache.xmlgraphics",
+          "module": "batik-bridge",
+          "version": {
+            "requires": "1.14"
+          },
+          "excludes": [
+            {
+              "group": "xml-apis",
+              "module": "xml-apis"
+            },
+            {
+              "group": "org.mozilla",
+              "module": "rhino"
+            },
+            {
+              "group": "org.python",
+              "module": "jython"
+            }
+          ]
+        },
+        {
+          "group": "org.apache.xmlgraphics",
+          "module": "batik-svggen",
+          "version": {
+            "requires": "1.14"
+          },
+          "excludes": [
+            {
+              "group": "xml-apis",
+              "module": "xml-apis"
+            }
+          ]
+        },
+        {
+          "group": "org.apache.xmlgraphics",
+          "module": "fop",
+          "version": {
+            "requires": "2.6"
+          },
+          "excludes": [
+            {
+              "group": "xml-apis",
+              "module": "xml-apis"
+            },
+            {
+              "group": "com.sun.media",
+              "module": "jai-codec"
+            }
+          ]
+        },
+        {
+          "group": "org.apache.pdfbox",
+          "module": "pdfbox",
+          "version": {
+            "requires": "2.0.24"
+          },
+          "excludes": [
+            {
+              "group": "xml-apis",
+              "module": "xml-apis"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "megameklab-0.49.6-SNAPSHOT.jar",
+          "url": "megameklab-0.49.6-SNAPSHOT.jar",
+          "size": 1088643,
+          "sha512": "7c31e5fec95fa0a7cefd139645bc36a2cf1bc38999c53660ded573f3c6d4d4ccabfbbd83bbb2840bf1d40015c7af39d88895022e75382e6a7c7c824e9ea6b9ab",
+          "sha256": "b0caf56a208752138c9cdfddc7c95c2048485f53ff723f16a22458732b36be85",
+          "sha1": "baabddb09dcdc70f4d2e878bf42cee96aa623b67",
+          "md5": "65c15e58a6be58031ac7c20be490f2a7"
+        }
+      ]
+    }
+  ]
+}
