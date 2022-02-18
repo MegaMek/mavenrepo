@@ -11,7 +11,7 @@
   "createdBy": {
     "gradle": {
       "version": "6.7",
-      "buildId": "7ii4fjdi6naivaxn33elglfgtm"
+      "buildId": "gm6yih2qzvazfcrijednhk5dri"
     }
   },
   "variants": [
@@ -28,11 +28,11 @@
         {
           "name": "megamek-0.49.7.jar",
           "url": "megamek-0.49.7.jar",
-          "size": 7423081,
-          "sha512": "38f1387850af593a777f399b3e45626e3ca41e272793ce0fbdad4814e85c6cf1be01dae540aeea84083021ba391587d357ccb5aa5f0176003b94a55eb280bc85",
-          "sha256": "d96fddb2c56c70b52e23f727dc7dd096e2bf7c89cc945e38a325f020b8d0773f",
-          "sha1": "177c4a21b75376b11afb2b01327b8a6d660130b4",
-          "md5": "60f7235847fa8f3f7cea3c6e6a149d4a"
+          "size": 7424176,
+          "sha512": "3a0a37444586e817a9ad77919129ce7a87e3f05fe712d38072d24af87ef0981f05e5ee60a0fd9b64f9dd6ed13c06282220b846528834c2ce65c994f3597088a0",
+          "sha256": "47ea49d5bb792592d85f7020bc0cb760e9283621c3d1f09cc9bfc36722682173",
+          "sha1": "435344b65df5e588ad6a37b13194f7a4fef4d0a5",
+          "md5": "f5a77221ae0044512dcec2165162cb14"
         }
       ]
     },
@@ -121,11 +121,11 @@
         {
           "name": "megamek-0.49.7.jar",
           "url": "megamek-0.49.7.jar",
-          "size": 7423081,
-          "sha512": "38f1387850af593a777f399b3e45626e3ca41e272793ce0fbdad4814e85c6cf1be01dae540aeea84083021ba391587d357ccb5aa5f0176003b94a55eb280bc85",
-          "sha256": "d96fddb2c56c70b52e23f727dc7dd096e2bf7c89cc945e38a325f020b8d0773f",
-          "sha1": "177c4a21b75376b11afb2b01327b8a6d660130b4",
-          "md5": "60f7235847fa8f3f7cea3c6e6a149d4a"
+          "size": 7424176,
+          "sha512": "3a0a37444586e817a9ad77919129ce7a87e3f05fe712d38072d24af87ef0981f05e5ee60a0fd9b64f9dd6ed13c06282220b846528834c2ce65c994f3597088a0",
+          "sha256": "47ea49d5bb792592d85f7020bc0cb760e9283621c3d1f09cc9bfc36722682173",
+          "sha1": "435344b65df5e588ad6a37b13194f7a4fef4d0a5",
+          "md5": "f5a77221ae0044512dcec2165162cb14"
         }
       ]
     }
