@@ -1,0 +1,155 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.megamek",
+    "module": "megameklab",
+    "version": "0.49.11-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "megameklab-0.49.11-SNAPSHOT.jar",
+          "url": "megameklab-0.49.11-SNAPSHOT.jar",
+          "size": 1045166,
+          "sha512": "d7ac73ea345a18bd501ec1fe822e81782289827cd5f2a5bf59a075d406e75b58c946a5432e47e9927abc95829d5586cd5ef1fa0c3a3fe583d55cc99834c1491f",
+          "sha256": "31398f384ba8fdaf763bcd312591955aba52b39f39adda9466cbb3b399bf2688",
+          "sha1": "80697e636c96e9087e5a13f4329a8dff8abe7950",
+          "md5": "8d554992c43163b40abafe5cdb50845c"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.megamek",
+          "module": "megamek",
+          "version": {
+            "requires": "0.49.11-SNAPSHOT"
+          }
+        },
+        {
+          "group": "jakarta.xml.bind",
+          "module": "jakarta.xml.bind-api",
+          "version": {
+            "requires": "4.0.0"
+          }
+        },
+        {
+          "group": "org.apache.logging.log4j",
+          "module": "log4j-core",
+          "version": {
+            "requires": "2.18.0"
+          }
+        },
+        {
+          "group": "org.apache.pdfbox",
+          "module": "pdfbox",
+          "version": {
+            "requires": "2.0.26"
+          }
+        },
+        {
+          "group": "org.apache.xmlgraphics",
+          "module": "batik-bridge",
+          "version": {
+            "requires": "1.14"
+          },
+          "excludes": [
+            {
+              "group": "org.mozilla",
+              "module": "rhino"
+            },
+            {
+              "group": "org.python",
+              "module": "jython"
+            }
+          ]
+        },
+        {
+          "group": "org.apache.xmlgraphics",
+          "module": "batik-codec",
+          "version": {
+            "requires": "1.14"
+          }
+        },
+        {
+          "group": "org.apache.xmlgraphics",
+          "module": "batik-dom",
+          "version": {
+            "requires": "1.14"
+          }
+        },
+        {
+          "group": "org.apache.xmlgraphics",
+          "module": "batik-rasterizer",
+          "version": {
+            "requires": "1.14"
+          }
+        },
+        {
+          "group": "org.apache.xmlgraphics",
+          "module": "batik-svggen",
+          "version": {
+            "requires": "1.14"
+          }
+        },
+        {
+          "group": "org.apache.xmlgraphics",
+          "module": "fop",
+          "version": {
+            "requires": "2.7"
+          },
+          "excludes": [
+            {
+              "group": "com.sun.media",
+              "module": "jai-codec"
+            }
+          ]
+        },
+        {
+          "group": "org.glassfish.jaxb",
+          "module": "jaxb-runtime",
+          "version": {
+            "requires": "4.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "megameklab-0.49.11-SNAPSHOT.jar",
+          "url": "megameklab-0.49.11-SNAPSHOT.jar",
+          "size": 1045166,
+          "sha512": "d7ac73ea345a18bd501ec1fe822e81782289827cd5f2a5bf59a075d406e75b58c946a5432e47e9927abc95829d5586cd5ef1fa0c3a3fe583d55cc99834c1491f",
+          "sha256": "31398f384ba8fdaf763bcd312591955aba52b39f39adda9466cbb3b399bf2688",
+          "sha1": "80697e636c96e9087e5a13f4329a8dff8abe7950",
+          "md5": "8d554992c43163b40abafe5cdb50845c"
+        }
+      ]
+    }
+  ]
+}
