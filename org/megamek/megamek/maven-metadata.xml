@@ -3,10 +3,11 @@
   <groupId>org.megamek</groupId>
   <artifactId>megamek</artifactId>
   <versioning>
-    <latest>0.49.11-SNAPSHOT</latest>
+    <latest>0.49.11</latest>
+    <release>0.49.11</release>
     <versions>
-      <version>0.49.11-SNAPSHOT</version>
+      <version>0.49.11</version>
     </versions>
-    <lastUpdated>20221219044156</lastUpdated>
+    <lastUpdated>20221222180644</lastUpdated>
   </versioning>
 </metadata>
