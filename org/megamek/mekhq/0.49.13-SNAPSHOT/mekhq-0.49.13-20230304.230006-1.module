@@ -1,0 +1,167 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.megamek",
+    "module": "mekhq",
+    "version": "0.49.13-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "mekhq-0.49.13-SNAPSHOT.jar",
+          "url": "mekhq-0.49.13-SNAPSHOT.jar",
+          "size": 3950047,
+          "sha512": "0f07519900f2bde67a4eee2aacdb763d59d05c704e4861ee59ed74258cda3c225e2cbc65bb68abd2870b67fdee11e5a78b0ad69753e95fe732f888359b2b5847",
+          "sha256": "568f413fc827745f16d4f8264df6e3d4bef3bc2687d56bec25042e07734d5d91",
+          "sha1": "aec8cf5a85dcd68b92474281abce421a493f9bb6",
+          "md5": "8ab2fbb555f3bb560e2c19de5523f119"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.megamek",
+          "module": "megamek",
+          "version": {
+            "requires": "0.49.13-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.megamek",
+          "module": "megameklab",
+          "version": {
+            "requires": "0.49.13-SNAPSHOT"
+          },
+          "excludes": [
+            {
+              "group": "org.megamek",
+              "module": "megameklab"
+            },
+            {
+              "group": "org.mozilla",
+              "module": "rhino"
+            },
+            {
+              "group": "org.python",
+              "module": "jython"
+            }
+          ]
+        },
+        {
+          "group": "jakarta.xml.bind",
+          "module": "jakarta.xml.bind-api",
+          "version": {
+            "requires": "4.0.0"
+          }
+        },
+        {
+          "group": "javax.vecmath",
+          "module": "vecmath",
+          "version": {
+            "requires": "1.5.2"
+          }
+        },
+        {
+          "group": "joda-time",
+          "module": "joda-time",
+          "version": {
+            "requires": "2.12.2"
+          }
+        },
+        {
+          "group": "org.apache.commons",
+          "module": "commons-csv",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "org.apache.commons",
+          "module": "commons-math3",
+          "version": {
+            "requires": "3.6.1"
+          }
+        },
+        {
+          "group": "org.apache.commons",
+          "module": "commons-text",
+          "version": {
+            "requires": "1.10.0"
+          }
+        },
+        {
+          "group": "org.apache.logging.log4j",
+          "module": "log4j-core",
+          "version": {
+            "requires": "2.19.0"
+          }
+        },
+        {
+          "group": "org.commonmark",
+          "module": "commonmark",
+          "version": {
+            "requires": "0.21.0"
+          }
+        },
+        {
+          "group": "org.jfree",
+          "module": "jfreechart",
+          "version": {
+            "requires": "1.5.3"
+          }
+        },
+        {
+          "group": "org.joda",
+          "module": "joda-money",
+          "version": {
+            "requires": "1.0.3"
+          }
+        },
+        {
+          "group": "org.glassfish.jaxb",
+          "module": "jaxb-runtime",
+          "version": {
+            "requires": "4.0.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "mekhq-0.49.13-SNAPSHOT.jar",
+          "url": "mekhq-0.49.13-SNAPSHOT.jar",
+          "size": 3950047,
+          "sha512": "0f07519900f2bde67a4eee2aacdb763d59d05c704e4861ee59ed74258cda3c225e2cbc65bb68abd2870b67fdee11e5a78b0ad69753e95fe732f888359b2b5847",
+          "sha256": "568f413fc827745f16d4f8264df6e3d4bef3bc2687d56bec25042e07734d5d91",
+          "sha1": "aec8cf5a85dcd68b92474281abce421a493f9bb6",
+          "md5": "8ab2fbb555f3bb560e2c19de5523f119"
+        }
+      ]
+    }
+  ]
+}
