@@ -27,11 +27,11 @@
         {
           "name": "megamek-0.49.13.jar",
           "url": "megamek-0.49.13.jar",
-          "size": 8433142,
-          "sha512": "f6ad1a4d6b19824fa67fd5e0e33dc7bc06a9f885f95e796a9582c0023c2853eed3eea4d3575bbda33d2f78fdb77301b75acecb62e3bf8a5414790eb23d41ffc0",
-          "sha256": "57648aefb4a32be7ced4f97039cc2c884287bd638190e1665349fd2393dd2c13",
-          "sha1": "5e261a4ae1313f1d0fc844df389dc48df5757d4b",
-          "md5": "8b7a288454099370ba4edfcf5eeb0ab0"
+          "size": 8434758,
+          "sha512": "f36344f112df2ae2f29b416aa0ecb7e667b79e2ed7f7a8ea1d679eb8021cc121579a4547b05c0c1ea91e12a6a9d89599afd54ab85eae5659571ce91fb02de292",
+          "sha256": "06ea235c651c60bdb343357c6a1dd5efe29c89279a41fc7b2d5f4b5b38ae6855",
+          "sha1": "9297affe68a71ef8fff1c7b36cbcd7fdadc542ec",
+          "md5": "8d02e1fcd65fa0af9e3cd7367566f5d3"
         }
       ]
     },
@@ -120,11 +120,11 @@
         {
           "name": "megamek-0.49.13.jar",
           "url": "megamek-0.49.13.jar",
-          "size": 8433142,
-          "sha512": "f6ad1a4d6b19824fa67fd5e0e33dc7bc06a9f885f95e796a9582c0023c2853eed3eea4d3575bbda33d2f78fdb77301b75acecb62e3bf8a5414790eb23d41ffc0",
-          "sha256": "57648aefb4a32be7ced4f97039cc2c884287bd638190e1665349fd2393dd2c13",
-          "sha1": "5e261a4ae1313f1d0fc844df389dc48df5757d4b",
-          "md5": "8b7a288454099370ba4edfcf5eeb0ab0"
+          "size": 8434758,
+          "sha512": "f36344f112df2ae2f29b416aa0ecb7e667b79e2ed7f7a8ea1d679eb8021cc121579a4547b05c0c1ea91e12a6a9d89599afd54ab85eae5659571ce91fb02de292",
+          "sha256": "06ea235c651c60bdb343357c6a1dd5efe29c89279a41fc7b2d5f4b5b38ae6855",
+          "sha1": "9297affe68a71ef8fff1c7b36cbcd7fdadc542ec",
+          "md5": "8d02e1fcd65fa0af9e3cd7367566f5d3"
         }
       ]
     }
