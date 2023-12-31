@@ -10,7 +10,7 @@
   },
   "createdBy": {
     "gradle": {
-      "version": "7.5.1"
+      "version": "7.5"
     }
   },
   "variants": [
@@ -27,11 +27,11 @@
         {
           "name": "megamek-0.49.17.jar",
           "url": "megamek-0.49.17.jar",
-          "size": 8497096,
-          "sha512": "4c6310688ceecef0f6fe27d5d7d281b3f4f0727338004bc30239e7bd4c5e0d8f011f80ef58ecae4e5cb4594ec0159e365e0cd56d8f3c03b985aaaedab5a69dcb",
-          "sha256": "a4c23301bcc84566ce9db07ef18623fd162b90aa7b22828302eb59a2534550fb",
-          "sha1": "5d0e4fd42bfe95c51122371461f04d3b60ab5da3",
-          "md5": "6ce8414f7ab8c2208353b8c4131d0b9e"
+          "size": 8498700,
+          "sha512": "cd5dd0f9f779873525be65ddff555a1dda44ff1a5463c1bd13685587c4d86c52a38e4832bff1b2e42bd2d7524e0a57b4a64fbd7bdec5dfd7c58f6b6cadeed941",
+          "sha256": "bb113e924bb8f368372798107ec2eea7219e8fdb3ad79a1239d3b929c60f1621",
+          "sha1": "215a9b7ce7b6901a5470e50ff25b0b2257c07b8c",
+          "md5": "a3ab5652f75c33ea6747db20a25add85"
         }
       ]
     },
@@ -120,11 +120,11 @@
         {
           "name": "megamek-0.49.17.jar",
           "url": "megamek-0.49.17.jar",
-          "size": 8497096,
-          "sha512": "4c6310688ceecef0f6fe27d5d7d281b3f4f0727338004bc30239e7bd4c5e0d8f011f80ef58ecae4e5cb4594ec0159e365e0cd56d8f3c03b985aaaedab5a69dcb",
-          "sha256": "a4c23301bcc84566ce9db07ef18623fd162b90aa7b22828302eb59a2534550fb",
-          "sha1": "5d0e4fd42bfe95c51122371461f04d3b60ab5da3",
-          "md5": "6ce8414f7ab8c2208353b8c4131d0b9e"
+          "size": 8498700,
+          "sha512": "cd5dd0f9f779873525be65ddff555a1dda44ff1a5463c1bd13685587c4d86c52a38e4832bff1b2e42bd2d7524e0a57b4a64fbd7bdec5dfd7c58f6b6cadeed941",
+          "sha256": "bb113e924bb8f368372798107ec2eea7219e8fdb3ad79a1239d3b929c60f1621",
+          "sha1": "215a9b7ce7b6901a5470e50ff25b0b2257c07b8c",
+          "md5": "a3ab5652f75c33ea6747db20a25add85"
         }
       ]
     }
