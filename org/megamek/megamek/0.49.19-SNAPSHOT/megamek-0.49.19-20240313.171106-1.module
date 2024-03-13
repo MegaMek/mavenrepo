@@ -1,0 +1,132 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.megamek",
+    "module": "megamek",
+    "version": "0.49.19-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "megamek-0.49.19-SNAPSHOT.jar",
+          "url": "megamek-0.49.19-SNAPSHOT.jar",
+          "size": 8622934,
+          "sha512": "9da1da15d1016823c5926f9e14a96baeb0d997fe2dd0058676805ba435ffdd8c4195e2e55cf1c0376fc2459c1548a6f6ba629dfccc2e1fa1c0054449cc2e519f",
+          "sha256": "67173cb1524d13b503f6dde0b3d964a4d49646502456363cb764543b1ef19057",
+          "sha1": "89a7e9dc2ddbf533d4862f7c83d24058a963eeda",
+          "md5": "461b41ef3578026ed99951a1c56d6f25"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-core",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.formdev",
+          "module": "flatlaf",
+          "version": {
+            "requires": "3.0"
+          }
+        },
+        {
+          "group": "com.github.ikkisoft",
+          "module": "SerialKiller",
+          "version": {
+            "requires": "master-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.sun.mail",
+          "module": "jakarta.mail",
+          "version": {
+            "requires": "2.0.1"
+          }
+        },
+        {
+          "group": "com.thoughtworks.xstream",
+          "module": "xstream",
+          "version": {
+            "requires": "1.4.20"
+          }
+        },
+        {
+          "group": "jakarta.xml.bind",
+          "module": "jakarta.xml.bind-api",
+          "version": {
+            "requires": "4.0.0"
+          }
+        },
+        {
+          "group": "org.apache.commons",
+          "module": "commons-text",
+          "version": {
+            "requires": "1.10.0"
+          }
+        },
+        {
+          "group": "org.apache.logging.log4j",
+          "module": "log4j-core",
+          "version": {
+            "requires": "2.20.0"
+          }
+        },
+        {
+          "group": "org.freemarker",
+          "module": "freemarker",
+          "version": {
+            "requires": "2.3.31"
+          }
+        },
+        {
+          "group": "org.glassfish.jaxb",
+          "module": "jaxb-runtime",
+          "version": {
+            "requires": "4.0.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "megamek-0.49.19-SNAPSHOT.jar",
+          "url": "megamek-0.49.19-SNAPSHOT.jar",
+          "size": 8622934,
+          "sha512": "9da1da15d1016823c5926f9e14a96baeb0d997fe2dd0058676805ba435ffdd8c4195e2e55cf1c0376fc2459c1548a6f6ba629dfccc2e1fa1c0054449cc2e519f",
+          "sha256": "67173cb1524d13b503f6dde0b3d964a4d49646502456363cb764543b1ef19057",
+          "sha1": "89a7e9dc2ddbf533d4862f7c83d24058a963eeda",
+          "md5": "461b41ef3578026ed99951a1c56d6f25"
+        }
+      ]
+    }
+  ]
+}
