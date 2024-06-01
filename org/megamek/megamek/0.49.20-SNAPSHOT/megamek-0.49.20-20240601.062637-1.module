@@ -1,0 +1,146 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.megamek",
+    "module": "megamek",
+    "version": "0.49.20-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "megamek-0.49.20-SNAPSHOT.jar",
+          "url": "megamek-0.49.20-SNAPSHOT.jar",
+          "size": 8781063,
+          "sha512": "235209b506fd78092d8cd166965441d73e5c5eb9245fab432dc0c8213ba893823b7282d21771b519330fc9078b0faf3b2eb95b6b077d328659cc16ac1b35283e",
+          "sha256": "0f4a87b0d819e27cd01ff10956fdcb001b8086dcf3cc1c1d9e39868b44e6c664",
+          "sha1": "c1987cf061dd5c99951863eb7a01e1d5a2195c5d",
+          "md5": "f81897c04e34f394421fe740cb21a259"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-core",
+          "version": {
+            "requires": "2.17.0"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.dataformat",
+          "module": "jackson-dataformat-yaml",
+          "version": {
+            "requires": "2.17.0"
+          }
+        },
+        {
+          "group": "com.formdev",
+          "module": "flatlaf",
+          "version": {
+            "requires": "3.4"
+          }
+        },
+        {
+          "group": "com.github.ikkisoft",
+          "module": "SerialKiller",
+          "version": {
+            "requires": "master-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.sun.mail",
+          "module": "jakarta.mail",
+          "version": {
+            "requires": "2.0.1"
+          }
+        },
+        {
+          "group": "com.thoughtworks.xstream",
+          "module": "xstream",
+          "version": {
+            "requires": "1.4.20"
+          }
+        },
+        {
+          "group": "jakarta.xml.bind",
+          "module": "jakarta.xml.bind-api",
+          "version": {
+            "requires": "4.0.2"
+          }
+        },
+        {
+          "group": "org.apache.commons",
+          "module": "commons-text",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.apache.logging.log4j",
+          "module": "log4j-core",
+          "version": {
+            "requires": "2.23.1"
+          }
+        },
+        {
+          "group": "org.freemarker",
+          "module": "freemarker",
+          "version": {
+            "requires": "2.3.32"
+          }
+        },
+        {
+          "group": "com.formdev",
+          "module": "flatlaf-extras",
+          "version": {
+            "requires": "3.4.1"
+          }
+        },
+        {
+          "group": "org.glassfish.jaxb",
+          "module": "jaxb-runtime",
+          "version": {
+            "requires": "4.0.5"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "megamek-0.49.20-SNAPSHOT.jar",
+          "url": "megamek-0.49.20-SNAPSHOT.jar",
+          "size": 8781063,
+          "sha512": "235209b506fd78092d8cd166965441d73e5c5eb9245fab432dc0c8213ba893823b7282d21771b519330fc9078b0faf3b2eb95b6b077d328659cc16ac1b35283e",
+          "sha256": "0f4a87b0d819e27cd01ff10956fdcb001b8086dcf3cc1c1d9e39868b44e6c664",
+          "sha1": "c1987cf061dd5c99951863eb7a01e1d5a2195c5d",
+          "md5": "f81897c04e34f394421fe740cb21a259"
+        }
+      ]
+    }
+  ]
+}
