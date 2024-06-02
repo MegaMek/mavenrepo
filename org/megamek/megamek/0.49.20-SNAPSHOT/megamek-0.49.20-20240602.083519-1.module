@@ -1,0 +1,146 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.megamek",
+    "module": "megamek",
+    "version": "0.49.20-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "megamek-0.49.20-SNAPSHOT.jar",
+          "url": "megamek-0.49.20-SNAPSHOT.jar",
+          "size": 8783710,
+          "sha512": "08084a5977b68c6b8b87ff774e7a30c349bf6f12336ad9495700cabc59a636e7bdd73b47f521bf500e0bd76dcb161181cd79809a9dd3db20057fc18952dcf24e",
+          "sha256": "1a1b2069f12126e0fb36fd2c5e060339ebead7e2a74ec899fa0659933f44fc6e",
+          "sha1": "ba106d5749ddb54c99a7814c371bfb5e7804fa6b",
+          "md5": "0687dac28bdef2ca7c12df1037036112"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-core",
+          "version": {
+            "requires": "2.17.0"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.dataformat",
+          "module": "jackson-dataformat-yaml",
+          "version": {
+            "requires": "2.17.0"
+          }
+        },
+        {
+          "group": "com.formdev",
+          "module": "flatlaf",
+          "version": {
+            "requires": "3.4"
+          }
+        },
+        {
+          "group": "com.github.ikkisoft",
+          "module": "SerialKiller",
+          "version": {
+            "requires": "master-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.sun.mail",
+          "module": "jakarta.mail",
+          "version": {
+            "requires": "2.0.1"
+          }
+        },
+        {
+          "group": "com.thoughtworks.xstream",
+          "module": "xstream",
+          "version": {
+            "requires": "1.4.20"
+          }
+        },
+        {
+          "group": "jakarta.xml.bind",
+          "module": "jakarta.xml.bind-api",
+          "version": {
+            "requires": "4.0.2"
+          }
+        },
+        {
+          "group": "org.apache.commons",
+          "module": "commons-text",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.apache.logging.log4j",
+          "module": "log4j-core",
+          "version": {
+            "requires": "2.23.1"
+          }
+        },
+        {
+          "group": "org.freemarker",
+          "module": "freemarker",
+          "version": {
+            "requires": "2.3.32"
+          }
+        },
+        {
+          "group": "com.formdev",
+          "module": "flatlaf-extras",
+          "version": {
+            "requires": "3.4.1"
+          }
+        },
+        {
+          "group": "org.glassfish.jaxb",
+          "module": "jaxb-runtime",
+          "version": {
+            "requires": "4.0.5"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "megamek-0.49.20-SNAPSHOT.jar",
+          "url": "megamek-0.49.20-SNAPSHOT.jar",
+          "size": 8783710,
+          "sha512": "08084a5977b68c6b8b87ff774e7a30c349bf6f12336ad9495700cabc59a636e7bdd73b47f521bf500e0bd76dcb161181cd79809a9dd3db20057fc18952dcf24e",
+          "sha256": "1a1b2069f12126e0fb36fd2c5e060339ebead7e2a74ec899fa0659933f44fc6e",
+          "sha1": "ba106d5749ddb54c99a7814c371bfb5e7804fa6b",
+          "md5": "0687dac28bdef2ca7c12df1037036112"
+        }
+      ]
+    }
+  ]
+}
