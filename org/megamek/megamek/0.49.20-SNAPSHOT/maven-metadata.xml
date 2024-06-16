@@ -5,31 +5,31 @@
   <version>0.49.20-SNAPSHOT</version>
   <versioning>
     <snapshot>
-      <timestamp>20240613.203328</timestamp>
+      <timestamp>20240616.064554</timestamp>
       <buildNumber>1</buildNumber>
     </snapshot>
-    <lastUpdated>20240613203328</lastUpdated>
+    <lastUpdated>20240616064554</lastUpdated>
     <snapshotVersions>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>0.49.20-20240613.203328-1</value>
-        <updated>20240613203328</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <extension>module</extension>
-        <value>0.49.20-20240613.203328-1</value>
-        <updated>20240613203328</updated>
+        <value>0.49.20-20240616.064554-1</value>
+        <updated>20240616064554</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>jar</extension>
-        <value>0.49.20-20240613.203328-1</value>
-        <updated>20240613203328</updated>
+        <value>0.49.20-20240616.064554-1</value>
+        <updated>20240616064554</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>module</extension>
+        <value>0.49.20-20240616.064554-1</value>
+        <updated>20240616064554</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>sources</classifier>
         <extension>jar</extension>
-        <value>0.49.20-20240613.203328-1</value>
-        <updated>20240613203328</updated>
+        <value>0.49.20-20240616.064554-1</value>
+        <updated>20240616064554</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
