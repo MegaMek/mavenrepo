@@ -1,0 +1,146 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.megamek",
+    "module": "megamek",
+    "version": "0.50.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "megamek-0.50.0-SNAPSHOT.jar",
+          "url": "megamek-0.50.0-SNAPSHOT.jar",
+          "size": 8815674,
+          "sha512": "4dde89453a0363bee65ee782308a29b0f5b3526d0c49dc46a91c9372bb3b7029db9343a8703ab6105350d7ad54786c52d296c1154a5787319b2d531c4f68485a",
+          "sha256": "8d8741ebfdfcac37f716d294fd8241ce456484503a541ea18531e71746e35bc0",
+          "sha1": "5202ab79ff5b0c8c0a53b6ab5eed1cc5701e865d",
+          "md5": "146ee423e5c627fdac887e9c829ee5e5"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-core",
+          "version": {
+            "requires": "2.17.0"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.dataformat",
+          "module": "jackson-dataformat-yaml",
+          "version": {
+            "requires": "2.17.0"
+          }
+        },
+        {
+          "group": "com.formdev",
+          "module": "flatlaf",
+          "version": {
+            "requires": "3.4"
+          }
+        },
+        {
+          "group": "com.github.ikkisoft",
+          "module": "SerialKiller",
+          "version": {
+            "requires": "master-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.sun.mail",
+          "module": "jakarta.mail",
+          "version": {
+            "requires": "2.0.1"
+          }
+        },
+        {
+          "group": "com.thoughtworks.xstream",
+          "module": "xstream",
+          "version": {
+            "requires": "1.4.20"
+          }
+        },
+        {
+          "group": "jakarta.xml.bind",
+          "module": "jakarta.xml.bind-api",
+          "version": {
+            "requires": "4.0.2"
+          }
+        },
+        {
+          "group": "org.apache.commons",
+          "module": "commons-text",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.apache.logging.log4j",
+          "module": "log4j-core",
+          "version": {
+            "requires": "2.23.1"
+          }
+        },
+        {
+          "group": "org.freemarker",
+          "module": "freemarker",
+          "version": {
+            "requires": "2.3.32"
+          }
+        },
+        {
+          "group": "com.formdev",
+          "module": "flatlaf-extras",
+          "version": {
+            "requires": "3.4.1"
+          }
+        },
+        {
+          "group": "org.glassfish.jaxb",
+          "module": "jaxb-runtime",
+          "version": {
+            "requires": "4.0.5"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "megamek-0.50.0-SNAPSHOT.jar",
+          "url": "megamek-0.50.0-SNAPSHOT.jar",
+          "size": 8815674,
+          "sha512": "4dde89453a0363bee65ee782308a29b0f5b3526d0c49dc46a91c9372bb3b7029db9343a8703ab6105350d7ad54786c52d296c1154a5787319b2d531c4f68485a",
+          "sha256": "8d8741ebfdfcac37f716d294fd8241ce456484503a541ea18531e71746e35bc0",
+          "sha1": "5202ab79ff5b0c8c0a53b6ab5eed1cc5701e865d",
+          "md5": "146ee423e5c627fdac887e9c829ee5e5"
+        }
+      ]
+    }
+  ]
+}
