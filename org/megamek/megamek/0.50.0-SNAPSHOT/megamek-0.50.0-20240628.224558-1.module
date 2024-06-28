@@ -1,0 +1,146 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.megamek",
+    "module": "megamek",
+    "version": "0.50.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "megamek-0.50.0-SNAPSHOT.jar",
+          "url": "megamek-0.50.0-SNAPSHOT.jar",
+          "size": 8814030,
+          "sha512": "4612356e6d4da3fafb57b13cdf8be4c4565f3da8f0c5a92b6d6b8aa33b14e5ee78f1173e845ca2a0c823f325779b634a270508ab92cdf61eff7738ead671a057",
+          "sha256": "e635263ad1857d659fdde53d591f680665ff5c6900b8a1ea69d888ecd6df9bae",
+          "sha1": "1570997c648fe66703c16fe81424b664b1d5276a",
+          "md5": "fc74b3b3f7ce129111a4f9b6e32a5913"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-core",
+          "version": {
+            "requires": "2.17.0"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.dataformat",
+          "module": "jackson-dataformat-yaml",
+          "version": {
+            "requires": "2.17.0"
+          }
+        },
+        {
+          "group": "com.formdev",
+          "module": "flatlaf",
+          "version": {
+            "requires": "3.4"
+          }
+        },
+        {
+          "group": "com.github.ikkisoft",
+          "module": "SerialKiller",
+          "version": {
+            "requires": "master-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.sun.mail",
+          "module": "jakarta.mail",
+          "version": {
+            "requires": "2.0.1"
+          }
+        },
+        {
+          "group": "com.thoughtworks.xstream",
+          "module": "xstream",
+          "version": {
+            "requires": "1.4.20"
+          }
+        },
+        {
+          "group": "jakarta.xml.bind",
+          "module": "jakarta.xml.bind-api",
+          "version": {
+            "requires": "4.0.2"
+          }
+        },
+        {
+          "group": "org.apache.commons",
+          "module": "commons-text",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.apache.logging.log4j",
+          "module": "log4j-core",
+          "version": {
+            "requires": "2.23.1"
+          }
+        },
+        {
+          "group": "org.freemarker",
+          "module": "freemarker",
+          "version": {
+            "requires": "2.3.32"
+          }
+        },
+        {
+          "group": "com.formdev",
+          "module": "flatlaf-extras",
+          "version": {
+            "requires": "3.4.1"
+          }
+        },
+        {
+          "group": "org.glassfish.jaxb",
+          "module": "jaxb-runtime",
+          "version": {
+            "requires": "4.0.5"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "megamek-0.50.0-SNAPSHOT.jar",
+          "url": "megamek-0.50.0-SNAPSHOT.jar",
+          "size": 8814030,
+          "sha512": "4612356e6d4da3fafb57b13cdf8be4c4565f3da8f0c5a92b6d6b8aa33b14e5ee78f1173e845ca2a0c823f325779b634a270508ab92cdf61eff7738ead671a057",
+          "sha256": "e635263ad1857d659fdde53d591f680665ff5c6900b8a1ea69d888ecd6df9bae",
+          "sha1": "1570997c648fe66703c16fe81424b664b1d5276a",
+          "md5": "fc74b3b3f7ce129111a4f9b6e32a5913"
+        }
+      ]
+    }
+  ]
+}
