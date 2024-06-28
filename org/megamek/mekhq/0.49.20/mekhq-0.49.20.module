@@ -1,0 +1,178 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.megamek",
+    "module": "mekhq",
+    "version": "0.49.20",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "mekhq-0.49.20.jar",
+          "url": "mekhq-0.49.20.jar",
+          "size": 4404422,
+          "sha512": "ec61305f036f5953deb79f67bfb6ed536acf1c2838e4bde071f86cea421f84147104b8acfb67b4d7882157e2ebfd40527bf96736fbfb0252624a41bef88df6cd",
+          "sha256": "8e494eb6567e17ffc531f9e0b4288940980d64d3eed381ba0cf4a98a49bda15c",
+          "sha1": "6b17dcde52ec6ea6295deff37bf6ff09fc755a4c",
+          "md5": "ae44c27eb8bf5ab1a54eedce233835c4"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.megamek",
+          "module": "megamek",
+          "version": {
+            "requires": "0.49.20"
+          }
+        },
+        {
+          "group": "org.megamek",
+          "module": "megameklab",
+          "version": {
+            "requires": "0.49.20"
+          },
+          "excludes": [
+            {
+              "group": "org.megamek",
+              "module": "megameklab"
+            },
+            {
+              "group": "org.mozilla",
+              "module": "rhino"
+            },
+            {
+              "group": "org.python",
+              "module": "jython"
+            },
+            {
+              "group": "xml-apis",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "jakarta.xml.bind",
+          "module": "jakarta.xml.bind-api",
+          "version": {
+            "requires": "4.0.0"
+          }
+        },
+        {
+          "group": "javax.vecmath",
+          "module": "vecmath",
+          "version": {
+            "requires": "1.5.2"
+          }
+        },
+        {
+          "group": "joda-time",
+          "module": "joda-time",
+          "version": {
+            "requires": "2.12.5"
+          }
+        },
+        {
+          "group": "org.apache.commons",
+          "module": "commons-csv",
+          "version": {
+            "requires": "1.10.0"
+          }
+        },
+        {
+          "group": "org.apache.commons",
+          "module": "commons-math3",
+          "version": {
+            "requires": "3.6.1"
+          }
+        },
+        {
+          "group": "org.apache.commons",
+          "module": "commons-text",
+          "version": {
+            "requires": "1.10.0"
+          }
+        },
+        {
+          "group": "org.apache.logging.log4j",
+          "module": "log4j-core",
+          "version": {
+            "requires": "2.20.0"
+          }
+        },
+        {
+          "group": "org.commonmark",
+          "module": "commonmark",
+          "version": {
+            "requires": "0.21.0"
+          }
+        },
+        {
+          "group": "org.jfree",
+          "module": "jfreechart",
+          "version": {
+            "requires": "1.5.4"
+          }
+        },
+        {
+          "group": "org.joda",
+          "module": "joda-money",
+          "version": {
+            "requires": "1.0.3"
+          }
+        },
+        {
+          "group": "org.glassfish.jaxb",
+          "module": "jaxb-runtime",
+          "version": {
+            "requires": "4.0.2"
+          }
+        },
+        {
+          "group": "xml-apis",
+          "module": "xml-apis-ext",
+          "version": {
+            "requires": "1.3.04"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "mekhq-0.49.20.jar",
+          "url": "mekhq-0.49.20.jar",
+          "size": 4404422,
+          "sha512": "ec61305f036f5953deb79f67bfb6ed536acf1c2838e4bde071f86cea421f84147104b8acfb67b4d7882157e2ebfd40527bf96736fbfb0252624a41bef88df6cd",
+          "sha256": "8e494eb6567e17ffc531f9e0b4288940980d64d3eed381ba0cf4a98a49bda15c",
+          "sha1": "6b17dcde52ec6ea6295deff37bf6ff09fc755a4c",
+          "md5": "ae44c27eb8bf5ab1a54eedce233835c4"
+        }
+      ]
+    }
+  ]
+}
