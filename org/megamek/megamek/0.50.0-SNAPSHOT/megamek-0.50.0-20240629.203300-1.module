@@ -1,0 +1,146 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.megamek",
+    "module": "megamek",
+    "version": "0.50.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "megamek-0.50.0-SNAPSHOT.jar",
+          "url": "megamek-0.50.0-SNAPSHOT.jar",
+          "size": 8814093,
+          "sha512": "8575bfd76bb4f89d7c5df14c064dafad51c643b122c86a501fdc5e9815cf7004dff3ee931a560fa172da303317f8cffb1e0a9cf3a7c08d482657dbf736ce4534",
+          "sha256": "3adbbea01e162113cfc789246d3f483b4b75115cb6b1dbb75d86dabc1d2b6abf",
+          "sha1": "89d10b2fbcb303d101170b49491aecdd92e2daff",
+          "md5": "33ce99672e1481d939daa0dfd74cdd4b"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-core",
+          "version": {
+            "requires": "2.17.0"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.dataformat",
+          "module": "jackson-dataformat-yaml",
+          "version": {
+            "requires": "2.17.0"
+          }
+        },
+        {
+          "group": "com.formdev",
+          "module": "flatlaf",
+          "version": {
+            "requires": "3.4"
+          }
+        },
+        {
+          "group": "com.github.ikkisoft",
+          "module": "SerialKiller",
+          "version": {
+            "requires": "master-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.sun.mail",
+          "module": "jakarta.mail",
+          "version": {
+            "requires": "2.0.1"
+          }
+        },
+        {
+          "group": "com.thoughtworks.xstream",
+          "module": "xstream",
+          "version": {
+            "requires": "1.4.20"
+          }
+        },
+        {
+          "group": "jakarta.xml.bind",
+          "module": "jakarta.xml.bind-api",
+          "version": {
+            "requires": "4.0.2"
+          }
+        },
+        {
+          "group": "org.apache.commons",
+          "module": "commons-text",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.apache.logging.log4j",
+          "module": "log4j-core",
+          "version": {
+            "requires": "2.23.1"
+          }
+        },
+        {
+          "group": "org.freemarker",
+          "module": "freemarker",
+          "version": {
+            "requires": "2.3.32"
+          }
+        },
+        {
+          "group": "com.formdev",
+          "module": "flatlaf-extras",
+          "version": {
+            "requires": "3.4.1"
+          }
+        },
+        {
+          "group": "org.glassfish.jaxb",
+          "module": "jaxb-runtime",
+          "version": {
+            "requires": "4.0.5"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "megamek-0.50.0-SNAPSHOT.jar",
+          "url": "megamek-0.50.0-SNAPSHOT.jar",
+          "size": 8814093,
+          "sha512": "8575bfd76bb4f89d7c5df14c064dafad51c643b122c86a501fdc5e9815cf7004dff3ee931a560fa172da303317f8cffb1e0a9cf3a7c08d482657dbf736ce4534",
+          "sha256": "3adbbea01e162113cfc789246d3f483b4b75115cb6b1dbb75d86dabc1d2b6abf",
+          "sha1": "89d10b2fbcb303d101170b49491aecdd92e2daff",
+          "md5": "33ce99672e1481d939daa0dfd74cdd4b"
+        }
+      ]
+    }
+  ]
+}
